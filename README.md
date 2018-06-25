@@ -6,4 +6,4 @@ This package includes VBA scripts for formatting endnote and footnote marks in M
 
 Copyright Omar Abdool 2018
 
-This work may be distributed and/or modified under the conditions of the GNU General Public License, either version 3.0.
+This work may be distributed and/or modified under the conditions of the GNU General Public License (version 3.0).
