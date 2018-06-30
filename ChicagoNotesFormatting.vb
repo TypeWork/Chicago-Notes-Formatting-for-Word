@@ -58,7 +58,8 @@ End Sub
 
 Sub MarkFormatting(ByRef NotesRange, MyReplaceText As String)
 
-' Finds footnote/endnote marks. Removes superscript formatting while adjusting format of marks based on specified string pattern
+    ' Find footnote/endnote marks in specified range (passed as NotesRange).
+    ' With find, superscript formatting removed and note marks typeset based on a specified string pattern (passed as MyReplaceText).
     With NotesRange.Find
         .ClearFormatting
         .Text = "(^2)([. ]{1,})"
