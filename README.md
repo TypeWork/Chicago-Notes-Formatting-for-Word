@@ -4,6 +4,7 @@ Included in *chicago-notes* are Microsoft Word macros (VBA scripts) for formatti
 
 
 This work distributed under the conditions of the GNU General Public License, version 3.0.
+
 Copyright Omar Abdool, 2018
 
 Last updated: 06-30-2018
