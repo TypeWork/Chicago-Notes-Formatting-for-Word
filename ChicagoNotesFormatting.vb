@@ -1,9 +1,9 @@
 Sub ChicagoNotesFormatting()
 
-    ' If endnotes found in active document, adjust formatting of footnotes and endnotes
+    ' If endnotes found in active document...
     If ActiveDocument.Endnotes.Count >= 1 Then
 
-        ' Locate endnotes at end of section and format endnote marks using Arabic numerals
+        ' Endnotes are placed at the end of a section and labelled using Arabic numerals
         With Selection.EndnoteOptions
             .Location = wdEndOfSection
             .NumberingRule = wdRestartContinuous
@@ -18,7 +18,7 @@ Sub ChicagoNotesFormatting()
 
         If ActiveDocument.Footnotes.Count >= 1 Then
 
-            ' Footnote count restarts with each page with footnote marks using symbols
+        ' Footnotes are restarted on each and labelled using symbols (without a following period)
             With Selection.FootnoteOptions
                 .Location = wdBottomOfPage
                 .StartingNumber = 1
@@ -32,7 +32,7 @@ Sub ChicagoNotesFormatting()
 
         End If
 
-    ' If no endnotes found in active document, adjust formatting of footnotes
+    ' If no endnotes found in active document...
     Else
 
         If ActiveDocument.Footnotes.Count >= 1 Then
