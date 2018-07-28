@@ -4,9 +4,11 @@
 
 Specificially, in the footnote and endnote ranges, note marks are formatted without superscript. A period is also placed immediately following each note mark, except when symbols are used for that type of note.
 
-This work is distributed under the conditions of the GNU General Public License, version 3.0.
 
-Copyright Omar Abdool, 2018
+## License
 
-Last updated: 06-30-2018
+Copyright (C) 2018   Omar Abdool
 
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
