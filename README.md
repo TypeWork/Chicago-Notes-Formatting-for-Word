@@ -1,4 +1,4 @@
-# chicago-notes-formatting
+# Chicago-Notes-Formatting-for-Word
 
 *chicago-notes-formatting* provides Microsoft Word macros (VBA scripts) that format footnote and endnote marks based on the recommendations of both the *Chicago Manual of Style* (17th edition) and Turabian's *A Manual for Writers* (9th edition).
 
@@ -7,7 +7,7 @@ Specificially, in the footnote and endnote ranges, note marks are formatted with
 
 ## License
 
-Copyright (C) 2018   Omar Abdool
+Copyright (C) 2023   Omar Abdool
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
